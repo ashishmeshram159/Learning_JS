@@ -43,20 +43,22 @@ let negValue = -value
 // console.log(2%3);
 
 let str1 = "hello"
-let str2 = " hitesh"
+let str2 = " aSHISHsh"
 
 let str3 = str1 + str2
 // console.log(str3);
 
 // console.log("1" + 2);
 // console.log(1 + "2");
-// console.log("1" + 2 + 2);
-// console.log(1 + 2 + "2");
+// console.log("1" + 2 + 2); // Execution: str + num + num = str + num = str // Final Output: 122
+// console.log(1 + 2 + "2"); // Execution: num + num + str = num + str = str // Final Output: 32
 
 // console.log( (3 + 4) * 5 % 3);
 
-// console.log(+true);
-// console.log(+"");
+// console.log(+true); //  increment to true => converted to 1
+// console.log(true+); //  error
+// console.log(+"");  // is 0
+// In boolean conversion of "" we get false. console.log(+Boolean('')) is 0.
 
 let num1, num2, num3
 
